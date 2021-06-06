@@ -30,6 +30,7 @@ For this purpose the url of the OPC UA server must be specified in line 290 like
   url = "opc.tcp://.....:53530/OPCUA/SimulationServer"
 ```
 
+The following table describes ten axes and their counterpart in OPC UA:
 
 | XQuery        | Function      |
 | ------------- |:-------------:| 
@@ -43,6 +44,13 @@ For this purpose the url of the OPC UA server must be specified in line 290 like
 | following      | following(client, connected, nodeList, offlineList)      |
 | preceding-sibling      | precedingSibling(client, connected, nodeList, offlineList) | 
 | following-sibling      | followingSibling(client, connected, nodeList, offlineList)      |
+
+The **client** parameter references the server specified by the url.
+The parameter **connected** can be True or False and indicates whether the server or the server's export is used.
+The parameter **nodeList** contains a list of NodeIds on which the function is executed.
+The **offlineList** parameter contains the information of the server's export and is defined in line 292.
+The **rootnode** parameter contains the nodeId of the server's root node. 
+
 
 ## Visualizations
 The visualizations folder contains the code to generate all the illustrations shown in chapter 5. Each file can be executed independently and already contains all the necessary information.
