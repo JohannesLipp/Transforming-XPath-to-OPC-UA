@@ -150,7 +150,7 @@ async def getDescendant(client, connected, nodeList, orSelf, offlineList, precfo
         a = checkSet^(returnSet.intersection(checkSet)) 
         returnSet.update(checkSet)
         checkSet = a
-
+    returnSet.update(await child(client, connected, returnSet, offlineList))
     return returnSet
 
 
