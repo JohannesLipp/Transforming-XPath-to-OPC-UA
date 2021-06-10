@@ -1,6 +1,10 @@
 # Transforming-XQuery-to-OPC-UA
 Is a Python implementation of the XQuery to OPC UA translator.
 
+## Requirements
+- Python3
+- A running OPC UA server (e.g., the [Prosys Simulation Server](https://www.prosysopc.com/products/opc-ua-simulation-server/))
+
 ## Usage
 To run the files, **fileAnalysis.py** and **OPCtranslator.py** must be in the same folder.  
 To extract the address space of the OPC UA Server you have to execute the file **extractor.py**.  
