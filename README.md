@@ -1,5 +1,6 @@
 # Transforming-XQuery-to-OPC-UA
 Is a Python implementation of the XQuery to OPC UA translator.
+
 Authors: Max Kocher, Johannes Theissen-Lipp, Patrick Sapel, and Mauritius Schmitz.
 
 ## Requirements
