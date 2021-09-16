@@ -1,5 +1,5 @@
-# Transforming-XQuery-to-OPC-UA
-Is a Python implementation of the XQuery to OPC UA translator.
+# Transforming XQuery to OPC-UA (X2OPC)
+X2OPC is a Python implementation of the XQuery to OPC UA translator.
 
 Authors: Max Kocher, Johannes Theissen-Lipp, Patrick Sapel, and Mauritius Schmitz.
 
