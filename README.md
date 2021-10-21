@@ -1,5 +1,5 @@
-# Transforming XQuery to OPC-UA (X2OPC)
-X2OPC is a Python implementation of the XQuery to OPC UA translator.
+# Transforming XPath to OPC-UA (X2OPC)
+X2OPC is a Python implementation of the XPath to OPC UA translator.
 
 Authors: Max Kocher, Johannes Theissen-Lipp, Patrick Sapel, and Mauritius Schmitz.
 
@@ -38,7 +38,7 @@ For this purpose the url of the OPC UA server must be specified in line 290 like
 
 The following table describes ten axes and their counterpart in OPC UA:
 
-| XQuery        | Function      |
+| XPath        | Function      |
 | ------------- |:-------------:| 
 | child      | child(client, connected, nodeList, offlineList) | 
 | parent      | parent(client, connected, nodeList, offlineList)      |
